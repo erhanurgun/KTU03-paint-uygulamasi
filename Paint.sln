@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintKutuphanesi", "PaintKutuphanesi\PaintKutuphanesi.csproj", "{99802262-C6DC-4A70-AB52-2DBB5EBF5F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintUygulamasi", "PaintUygulamasi\PaintUygulamasi.csproj", "{3DCB5D98-D67C-46DF-BA79-2F624B26961C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99802262-C6DC-4A70-AB52-2DBB5EBF5F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99802262-C6DC-4A70-AB52-2DBB5EBF5F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99802262-C6DC-4A70-AB52-2DBB5EBF5F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99802262-C6DC-4A70-AB52-2DBB5EBF5F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCB5D98-D67C-46DF-BA79-2F624B26961C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCB5D98-D67C-46DF-BA79-2F624B26961C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCB5D98-D67C-46DF-BA79-2F624B26961C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCB5D98-D67C-46DF-BA79-2F624B26961C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5093A2D-AF77-47A7-AE54-5B4096AF232D}
+	EndGlobalSection
+EndGlobal
