@@ -46,16 +46,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmPaint.cs">
+    <Compile Include="frmBasitPaint.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPaint.Designer.cs">
-      <DependentUpon>frmPaint.cs</DependentUpon>
+    <Compile Include="frmBasitPaint.Designer.cs">
+      <DependentUpon>frmBasitPaint.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGelismisPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGelismisPaint.Designer.cs">
+      <DependentUpon>frmGelismisPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Global.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmPaint.resx">
-      <DependentUpon>frmPaint.cs</DependentUpon>
+    <EmbeddedResource Include="frmBasitPaint.resx">
+      <DependentUpon>frmBasitPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGelismisPaint.resx">
+      <DependentUpon>frmGelismisPaint.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

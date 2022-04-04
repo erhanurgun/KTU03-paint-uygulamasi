@@ -12,9 +12,10 @@ D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\bin\Debug\PaintUygul
 D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\bin\Debug\PaintUygulamasi.exe
 D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\bin\Debug\PaintUygulamasi.pdb
 D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\obj\Debug\PaintUygulamasi.csproj.AssemblyReference.cache
-D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\obj\Debug\PaintUygulamasi.frmPaint.resources
 D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\obj\Debug\PaintUygulamasi.Properties.Resources.resources
 D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\obj\Debug\PaintUygulamasi.csproj.GenerateResource.cache
 D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\obj\Debug\PaintUygulamasi.csproj.CoreCompileInputs.cache
 D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\obj\Debug\PaintUygulamasi.exe
 D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\obj\Debug\PaintUygulamasi.pdb
+D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\obj\Debug\PaintUygulamasi.frmBasitPaint.resources
+D:\PROJECTS\_github_\KTU03-paint-uygulamasi\PaintUygulamasi\obj\Debug\PaintUygulamasi.frmGelismisPaint.resources

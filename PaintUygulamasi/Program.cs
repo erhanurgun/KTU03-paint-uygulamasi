@@ -16,7 +16,8 @@ namespace PaintUygulamasi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmPaint());
+            Application.Run(new frmBasitPaint());
+            //Application.Run(new frmGelismisPaint());
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace PaintUygulamasi
 {
-    partial class frmPaint
+    partial class frmGelismisPaint
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace PaintUygulamasi
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPaint));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGelismisPaint));
             this.gboxCizimPaneli = new System.Windows.Forms.GroupBox();
             this.pboxCizimAlani = new System.Windows.Forms.PictureBox();
             this.gboxAracPaneli = new System.Windows.Forms.GroupBox();

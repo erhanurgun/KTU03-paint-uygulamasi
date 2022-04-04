@@ -10,8 +10,11 @@ using System.Windows.Forms;
 
 namespace PaintUygulamasi
 {
-    public partial class frmPaint : Form
+    public partial class frmGelismisPaint : Form
     {
+        // TODO: Stack ve Heap kullanımını araştır
+
+
         private GlobalDegisken gDegisken = new GlobalDegisken();
         private SerbestCizgi sCizgi = new SerbestCizgi();
 
@@ -53,22 +56,22 @@ namespace PaintUygulamasi
 
         abstract public class Cizim : GlobalDegisken
         {
-            public abstract void Ciz(MouseEventArgs e);
+            public virtual void Ciz() { }
         }
 
         public class SerbestCizgi : Cizim
         {
-            public override void Ciz(MouseEventArgs e)
+            public override void Ciz()
             {
-                
+                grafik.DrawLine(kalem1, iNokta, sNokta);
             }
         }
 
-        // TODO: Daha Sonra Tamamlanacaklar
         #region Taslaklar:
+        
         //public class DuzCizgi : Cizim
         //{
-        //    public override void Ciz(int genislik, int yukseklik)
+        //    public override void Ciz()
         //    {
 
         //    }
@@ -76,7 +79,7 @@ namespace PaintUygulamasi
 
         //public class Daire : Cizim
         //{
-        //    public override void Ciz(int genislik, int yukseklik)
+        //    public override void Ciz()
         //    {
 
         //    }
@@ -84,7 +87,7 @@ namespace PaintUygulamasi
 
         //public class Dortgen : Cizim
         //{
-        //    public override void Ciz(int genislik, int yukseklik)
+        //    public override void Ciz()
         //    {
 
         //    }
@@ -92,7 +95,7 @@ namespace PaintUygulamasi
 
         //public class Ucgen : Cizim
         //{
-        //    public override void Ciz(int genislik, int yukseklik)
+        //    public override void Ciz()
         //    {
 
         //    }
@@ -101,7 +104,7 @@ namespace PaintUygulamasi
 
         #endregion
 
-        public frmPaint()
+        public frmGelismisPaint()
         {
             InitializeComponent();
         }
@@ -252,7 +255,11 @@ namespace PaintUygulamasi
 
                 // Serbest Çizim Butonu
                 if (gDegisken.cizimDurumu && gDegisken.tip == SekilTipi.serbest)
-                    gDegisken.grafik.DrawLine(gDegisken.kalem1, gDegisken.iNokta, gDegisken.sNokta);
+                    //gDegisken.grafik.DrawLine(gDegisken.kalem1, gDegisken.iNokta, gDegisken.sNokta);
+                {
+                    SerbestCizgi sc = new SerbestCizgi();
+                    sc.Ciz();
+                }
 
                 // Dörtgen Çizime Butonu
                 if (gDegisken.cizimDurumu && gDegisken.tip == SekilTipi.dortgen)
