@@ -85,7 +85,6 @@ namespace PaintUygulamasi
             global.cizimDurumu = true;
             global.baslaX = e.X;
             global.baslaY = e.Y;
-
         }
         
         private void pboxCizimPaneli_MouseMove(object sender, MouseEventArgs e)

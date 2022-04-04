@@ -49,8 +49,22 @@ namespace PaintUygulamasi
     {
         public override void ciz(MouseEventArgs e, Graphics g)
         {
-            var sekil = new Rectangle(e.X, e.Y, genislik, yukseklik);
-            g.DrawRectangle(kalem, sekil);
+            //var sekil = new Rectangle(e.X, e.Y, genislik, yukseklik);
+            //g.DrawRectangle(kalem, sekil);
+
+            int x = e.X - 90;
+            int y = e.Y - 90;
+
+            Point[] noktalar =
+            {
+                new Point(x + 40,  y + 60),
+                new Point(x + 40,  y + 140),
+                new Point(x + 140, y + 140),
+                new Point(x + 140, y + 60),
+                new Point(x + 40,  y + 60)
+            };
+
+            g.DrawLines(kalem, noktalar);
         }
     }
 
@@ -59,7 +73,8 @@ namespace PaintUygulamasi
         public override void ciz(MouseEventArgs e, Graphics g)
         {
             var sekil = new Rectangle(e.X, e.Y, genislik, yukseklik);
-            g.DrawEllipse(kalem, sekil);
+            //g.DrawEllipse(kalem, sekil);
+            g.DrawArc(kalem, sekil, 360, 360);
         }
     }
 
